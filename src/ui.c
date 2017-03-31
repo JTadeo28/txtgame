@@ -1,8 +1,7 @@
-//Input parser
 #include <stdio.h>
 #include <string.h>
 
-/*
+//Input handler
 void input()
 {
     char inputCommands[32];
@@ -33,4 +32,3 @@ void input()
         } 
     }
 }
-*/
