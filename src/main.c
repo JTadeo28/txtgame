@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 #include "../h/room.h"
+#include "../h/ui.h"
 
 int main()
 {
@@ -20,6 +21,15 @@ int main()
 
         ROOMsetDesc(cellar, "Sunlight illuminates the damp room.");
         printf("%s\n", ROOMgetDesc(cellar));
+
+    //--------------------------------
+
+        char *str = "two words pal";
+
+        char **args = split(str);
+
+        //printf("%s\n", args[0]);
+        
 
     //--------------------------------
     
