@@ -24,11 +24,14 @@ int main()
 
     //--------------------------------
 
-        char *str = "two words pal";
+        char *str = "    this is   a  test";
 
         char **args = split(str);
 
-        //printf("%s\n", args[0]);
+        printf("\nfirst word:\t%s\n", args[0]);
+        printf("second word:\t%s\n", args[1]);
+        printf("third word:\t%s\n", args[2]);
+        printf("fourth word:\t%s\n", args[3]);
         
 
     //--------------------------------
